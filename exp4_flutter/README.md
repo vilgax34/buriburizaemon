@@ -19,29 +19,16 @@ fl_chart: ^0.66.0
 
 ---
 
-## Folder Structure
-
-lib/
-│
-├── main.dart
-├── screens/
-│   └── home_screen.dart
-├── widgets/
-│   ├── profile_image.dart
-│   └── bar_chart_widget.dart
-```
-
----
 
 ## Assets
 
-Add your image under: `assets/images/profile.jpg`
+Add your image under: `assets/myPhoto.jpg`
 
 Then in `pubspec.yaml`, enable:
 
 ```yaml
 assets:
-  - assets/images/profile.jpg
+  - assets/myPhoto.jpg
 ```
 ```
 
